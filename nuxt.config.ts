@@ -3,10 +3,12 @@ export default defineNuxtConfig({
     head: {
       title: 'Bitcoin Design Foundation',
       meta: [
-        { name: 'description', content: 'Coming soon' },
+        { name: 'description', content: 'We support designers who improve the bitcoin user experience.' },
         { name: 'msapplication-TileColor', content: '#000000' },
         { name: 'msapplication-TileImage', content: '/images/mstile-150x150.png' },
-        { name: 'theme-color"', content: '#000000' }
+        { name: 'theme-color', content: '#000000' },
+        { name: 'og:image', content: '/assets/images/preview.jpg' },
+        { name: 'twitter:image', content: '/assets/images/preview.jpg' }
       ],
       link: [
         { rel: 'apple-touch-icon', sizes: '57x57', href: '/images/apple-icon-57x57.png' },
