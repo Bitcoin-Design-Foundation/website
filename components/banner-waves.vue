@@ -30,6 +30,7 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: space-between;
+  background-color: #03131E;
   background-image: url('/assets/images/waves.jpg');
   background-size: cover;
   background-position: center center;
