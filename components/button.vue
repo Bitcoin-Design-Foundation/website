@@ -36,7 +36,7 @@ const classObject = computed(() => {
     :class="classObject"
     :disabled="disabled"
     :aria-label="label"
-    :to="to"
+    :url="url"
     :rel="rel"
     target="_blank"
   ><span><slot /></span></a>
