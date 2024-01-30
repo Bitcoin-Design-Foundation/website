@@ -6,7 +6,6 @@ const people = [
     role: 'UX Researcher',
     src: '/assets/images/mogashni.jpg',
     srcset: '/assets/images/mogashni.jpg 1x, /assets/images/mogashni@2x.jpg 2x',
-    email: 'mo@bitcoindesignfoundation.org',
     social: 'https://twitter.com/MogashniNaidoo',
     newsletter: 'http://mogashni.substack.com'
   },
@@ -15,7 +14,6 @@ const people = [
     role: 'Designer',
     src: 'daniel.jpg',
     srcset: '/assets/images/daniel.jpg 1x, /assets/images/daniel@2x.jpg 2x',
-    email: 'daniel@bitcoindesignfoundation.org',
     social: 'https://twitter.com/danielnordh'
   },
   {
@@ -23,7 +21,6 @@ const people = [
     role: 'Designer',
     src: 'christoph.jpg',
     srcset: '/assets/images/christoph.jpg 1x, /assets/images/christoph@2x.jpg 2x',
-    email: 'chistoph@bitcoindesignfoundation.org',
     social: 'https://twitter.com/GBKS',
     newsletter: 'http://gbks.substack.com'
   }
@@ -35,7 +32,7 @@ const people = [
   <div class="team">
     <div class="copy">
       <h2>The team</h2>
-      <p>Phasellus ultricies ex a facilisis tincidunt. Vestibulum scelerisque, felis eget finibus vestibulum, risus nunc gravida nunc, sed placerat metus tortor non leo. Donec ante justo, tempus at magna pellentesque, scelerisque dictum libero.</p>
+      <p>The Bitcoin Design Foundation has been set up by Christoph Ono, Mogashni Naidoo and Daniel Nordh. All three are core contributors, maintainers and organizers of the Bitcoin Design Community’s projects and activities.</p>
     </div>
     <div class="items">
       <TeamPerson

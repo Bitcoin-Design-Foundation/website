@@ -63,7 +63,11 @@
 
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
     background-image: url('/assets/images/waves@2x.jpg');
-    min-height: 600px;
+  }
+
+  @include media-query(small) {
+    height: 85dvh;
+    min-height: 550px;
   }
 
   @include media-query(medium-up) {

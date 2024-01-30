@@ -18,11 +18,6 @@ const props = defineProps([
       <p>{{ info.role }}</p>
       <div class="links">
         <a
-          v-if="info.email"
-          :href="info.email"
-          target="_blank"
-        ><span>Email</span></a>
-        <a
           v-if="info.social"
           :href="info.social"
           target="_blank"
