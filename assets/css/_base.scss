@@ -5,22 +5,15 @@
 @import "_mixins";
 @import "_normalize";
 
-@font-face {
-  font-family: 'Maven Pro';
-  font-style: normal;
-  font-weight: 1 999;
-  src: url('~/static/fonts/MavenPro-VariableFont_wght.ttf') format("truetype-variations");
-}
-
 html {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 body {
   margin: 0 !important;
-  background-color: var(--siteBackground);
+  background-color: var(--background);
 
   &.-dark {
 
@@ -30,13 +23,20 @@ body {
 html, 
 p {
   margin: 0;
+  @include r('font-size', 18, 21);
   font-weight: 400;
-  line-height: 1.4;
-  letter-spacing: -0.01rem;
-  color: var(--text-light);
+  line-height: 1.6;
+  letter-spacing: -0.02rem;
 }
 
 p {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-light);
+
+  i {
+    color: var(--text-dark);
+  }
+
   b {
     font-weight: 900;
   }
@@ -59,40 +59,48 @@ h6,
 .-h5,
 .-h6 {
   margin: 0;
-  font-weight: 300;
-  line-height: 1.2;
-  letter-spacing: -0.01rem;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
   color: var(--text-dark);
+  text-wrap: balance;
 }
 
 h1, 
 .-h1 {
-	@include r('font-size', 64, 64);
+  font-weight: 500;
+	@include r('font-size', 48, 64);
+  line-height: 1.1;
 }
 
 h2, 
 .-h2 {
-	@include r('font-size', 48, 48);
+	@include r('font-size', 40, 48);
+  line-height: 1.2;
 }
 
 h3, 
 .-h3 {
-	@include r('font-size', 32, 32);
+	@include r('font-size', 27, 32);
+  line-height: 1.2;
 }
 
 h4, 
 .-h4 {
-	@include r('font-size', 26, 26);
+	@include r('font-size', 21, 24);
+  letter-spacing: -0.02rem;
+  line-height: 1.2;
 }
 
 h5, 
 .-h5 {
-	@include r('font-size', 22, 22);
+	@include r('font-size', 19, 22);
+  line-height: 1.2;
 }
 
 h6, 
 .-h6 {
-	@include r('font-size', 18, 18);
+	@include r('font-size', 16, 18);
+  line-height: 1.2;
 }
 
 .-p1,
@@ -103,7 +111,6 @@ h6,
 .-p6 {
   margin: 0;
   font-weight: 300;
-  color: var(--front);
 }
 
 .-p1 {
