@@ -66,7 +66,7 @@
   }
 
   @include media-query(small) {
-    height: 85dvh;
+    height: 85svh;
     min-height: 550px;
   }
 
