@@ -13,6 +13,7 @@
           <Button 
             url="https://opencollective.com/bitcoin-design-foundation"
             size="big"
+            rel="me"
           >Apply</Button>
         </PageHeader>
         <Paragraph>
@@ -43,12 +44,6 @@
           <h2 class="-h3">Grant review process</h2>
           <p>The grant selection process involves the evaluation of multiple criteria. The 3 criteria that proposals are evaluated with are the following:</p>
 
-          <ol v-if="false">
-            <li>Bitcoin</li>
-            <li>Free and open-source</li>
-            <li>Open design & education</li>
-          </ol>
-
           <picture>
             <source
               media="(max-width: 639px)"
@@ -60,6 +55,7 @@
               width="900"
               height="180"
               loading="lazy"
+              alt=""
             >
           </picture>
           

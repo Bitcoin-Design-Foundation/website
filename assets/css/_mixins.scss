@@ -13,6 +13,12 @@
 // Media queries
 
 @mixin media-query($media-query) {
+  @if $media-query == tiny {
+    @media only screen and (max-width:($tiny-width - 1)) {
+      @content;
+    }
+  }
+
   @if $media-query == small {
     @media only screen and (max-width:($small-width - 1)) {
       @content;

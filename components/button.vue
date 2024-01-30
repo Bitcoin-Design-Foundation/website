@@ -5,7 +5,8 @@ const props = defineProps([
   'size', // small, medium, big
   'disabled',
   'to',
-  'url'
+  'url',
+  'rel'
 ])
 
 const emit = defineEmits(['click'])
@@ -36,6 +37,7 @@ const classObject = computed(() => {
     :disabled="disabled"
     :aria-label="label"
     :to="to"
+    :rel="rel"
     target="_blank"
   ><span><slot /></span></a>
   <button
@@ -166,8 +168,11 @@ const classObject = computed(() => {
 
   &.-big {
     span {
-      padding: 12px 37px;
-      font-size: 24px;
+      @include r('padding-top', 10, 12);
+      @include r('padding-bottom', 10, 12);
+      @include r('padding-left', 30, 37);
+      @include r('padding-right', 30, 37);
+      @include r('font-size', 21, 24);
     }
   }
 }

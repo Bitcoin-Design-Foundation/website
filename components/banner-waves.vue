@@ -8,8 +8,16 @@
     <div class="copy">
       <h1>Open-source.<br/>Bitcoin. Design.<br/>Funding.</h1>
       <div class="options">
-        <Button to="/donate" theme="filled" size="big">Donate</Button>
-        <Button to="/apply" theme="filled" size="big">Apply</Button>
+        <Button 
+          to="/donate" 
+          theme="filled" 
+          size="big"
+        >Donate</Button>
+        <Button 
+          to="/apply" 
+          theme="filled" 
+          size="big"
+        >Apply</Button>
       </div>
     </div>
   </div>
@@ -25,7 +33,6 @@
   background-image: url('/assets/images/waves.jpg');
   background-size: cover;
   background-position: center center;
-  min-height: 700px;
   max-width: 1800px;
   margin-left: auto;
   margin-right: auto;
@@ -56,10 +63,12 @@
 
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
     background-image: url('/assets/images/waves@2x.jpg');
+    min-height: 600px;
   }
 
   @include media-query(medium-up) {
     height: 85vh;
+    min-height: 700px;
   }
 }
 

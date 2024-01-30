@@ -13,6 +13,7 @@
           <Button 
             url="https://opencollective.com/bitcoin-design-foundation"
             size="big"
+            rel="me"
           >Donate</Button>
         </PageHeader>
         <Paragraph>

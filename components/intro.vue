@@ -25,7 +25,7 @@
   p {
     b {
       font-family: 'Space Grotesk', sans-serif;
-      font-size: 36px;
+      @include r('font-size', 24, 36);
       line-height: 1.2;
       font-weight: 600;
       color: var(--text-dark);

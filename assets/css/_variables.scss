@@ -1,5 +1,5 @@
 
-
+$tiny-width: 375px;
 $small-width: 640px;
 $large-width: 1024px;
 $huge-width: 1281px;
@@ -17,4 +17,7 @@ $mega-width: 1601px;
 
 .--theme-dark {
 	--background: #180F02;
+
+	--text-dark: #ffffff;
+	--text-light: #E7E7E7;
 }

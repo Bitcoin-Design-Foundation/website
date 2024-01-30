@@ -5,7 +5,7 @@
 <template>
   <div class="footer">
     <div class="content">
-      <a href="mailto:stuff@stuff.com">info@bitcoindesignfoundation.org</a>
+      <a href="mailto:hi@bitcoindesignfoundation.org">hi@bitcoindesignfoundation.org</a>
       <p>© Bitcoin Design Foundation</p>
     </div>
   </div>

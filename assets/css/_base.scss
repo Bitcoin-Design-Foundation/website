@@ -23,7 +23,7 @@ body {
 html, 
 p {
   margin: 0;
-  font-size: 21px;
+  @include r('font-size', 18, 21);
   font-weight: 400;
   line-height: 1.6;
   letter-spacing: -0.02rem;
@@ -65,33 +65,33 @@ h6,
 h1, 
 .-h1 {
   font-weight: 500;
-	@include r('font-size', 64, 64);
+	@include r('font-size', 48, 64);
 }
 
 h2, 
 .-h2 {
-	@include r('font-size', 48, 48);
+	@include r('font-size', 40, 48);
 }
 
 h3, 
 .-h3 {
-	@include r('font-size', 32, 32);
+	@include r('font-size', 27, 32);
 }
 
 h4, 
 .-h4 {
-	@include r('font-size', 24, 24);
+	@include r('font-size', 21, 24);
   letter-spacing: -0.02rem;
 }
 
 h5, 
 .-h5 {
-	@include r('font-size', 22, 22);
+	@include r('font-size', 19, 22);
 }
 
 h6, 
 .-h6 {
-	@include r('font-size', 18, 18);
+	@include r('font-size', 16, 18);
 }
 
 .-p1,

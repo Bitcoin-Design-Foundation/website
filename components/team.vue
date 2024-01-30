@@ -6,26 +6,26 @@ const people = [
     role: 'UX Researcher',
     src: '/assets/images/mogashni.jpg',
     srcset: '/assets/images/mogashni.jpg 1x, /assets/images/mogashni@2x.jpg 2x',
-    email: 'stuff@test.com',
-    social: 'stuff@test.com',
-    newsletter: 'stuff@test.com'
+    email: 'mo@bitcoindesignfoundation.org',
+    social: 'https://twitter.com/MogashniNaidoo',
+    newsletter: 'http://mogashni.substack.com'
   },
   {
     name: 'Daniel',
     role: 'Designer',
     src: 'daniel.jpg',
     srcset: '/assets/images/daniel.jpg 1x, /assets/images/daniel@2x.jpg 2x',
-    email: 'stuff@test.com',
-    social: 'stuff@test.com'
+    email: 'daniel@bitcoindesignfoundation.org',
+    social: 'https://twitter.com/danielnordh'
   },
   {
     name: 'Christoph',
     role: 'Designer',
     src: 'christoph.jpg',
     srcset: '/assets/images/christoph.jpg 1x, /assets/images/christoph@2x.jpg 2x',
-    email: 'stuff@test.com',
-    social: 'stuff@test.com',
-    newsletter: 'stuff@test.com'
+    email: 'chistoph@bitcoindesignfoundation.org',
+    social: 'https://twitter.com/GBKS',
+    newsletter: 'http://gbks.substack.com'
   }
 ]
 

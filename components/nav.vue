@@ -55,6 +55,8 @@ const classObject = computed(() => {
       transition: all 150ms $ease;
 
       span {
+        text-wrap: nowrap;
+
         ::v-deep(svg) {
           height: 35px;
           line-height: 1;
@@ -115,6 +117,24 @@ const classObject = computed(() => {
             &:last-child {
               color: white;
             }
+          }
+        }
+      }
+    }
+  }
+
+  @include media-query(tiny) {
+    .content {
+      > a {
+        gap: 10px;
+
+        span {
+          ::v-deep(svg) {
+            height: 25px;
+          }
+
+          &:last-child {
+            font-size: 19px;
           }
         }
       }
