@@ -48,7 +48,7 @@
     margin: 0;
     
     li {
-      font-size: 21px;
+      @include r('font-size', 18, 21);
       font-weight: 400;
       line-height: 1.4;
       letter-spacing: -0.02rem;

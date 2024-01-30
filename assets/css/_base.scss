@@ -56,7 +56,6 @@ h6,
 .-h6 {
   margin: 0;
   font-weight: 600;
-  line-height: 1.1;
   letter-spacing: -0.1rem;
   color: var(--text-dark);
   text-wrap: balance;
@@ -66,32 +65,38 @@ h1,
 .-h1 {
   font-weight: 500;
 	@include r('font-size', 48, 64);
+  line-height: 1.1;
 }
 
 h2, 
 .-h2 {
 	@include r('font-size', 40, 48);
+  line-height: 1.2;
 }
 
 h3, 
 .-h3 {
 	@include r('font-size', 27, 32);
+  line-height: 1.2;
 }
 
 h4, 
 .-h4 {
 	@include r('font-size', 21, 24);
   letter-spacing: -0.02rem;
+  line-height: 1.2;
 }
 
 h5, 
 .-h5 {
 	@include r('font-size', 19, 22);
+  line-height: 1.2;
 }
 
 h6, 
 .-h6 {
 	@include r('font-size', 16, 18);
+  line-height: 1.2;
 }
 
 .-p1,
