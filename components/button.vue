@@ -21,6 +21,10 @@ const classObject = computed(() => {
   return c.join(' ')
 })
 
+const isEmail = computed(() => {
+  return props.url && props.url.indexOf('mailto') !== -1
+})
+
 </script>
 
 <template>
@@ -36,9 +40,9 @@ const classObject = computed(() => {
     :class="classObject"
     :disabled="disabled"
     :aria-label="label"
-    :url="url"
+    :href="url"
     :rel="rel"
-    target="_blank"
+    :target="isEmail ? null : '_blank'"
   ><span><slot /></span></a>
   <button
     v-if="!(to || url)"
