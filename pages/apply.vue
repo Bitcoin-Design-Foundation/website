@@ -37,7 +37,7 @@
             <li><b>Merchant interactions:</b> Purchases, especially in-person ones, are extremely sensitive moments where technology and user interactions have to come together flawlessly.</li>
             <li><b>Ecash:</b> Fedimint and Cashu are two protocols with very active ecosystems of builders.</li>
             <li><b>Key projects and collaboration support:</b> Existing community collaborations and key projects to continue and deepen. The list includes Bitcoin Core App, Bitcoin UI Kit, Bitcoin Research Kit, Fedimint, Saving Satoshi, JAM and others.</li>
-            <li><b>Accessibility:</b> How can we improve accessbility in bitcoin wallets? During our research on <a href="https://bitcoin.design/guide/designing-products/accessibility/" target="_blank">accessibility</a> in the bitcoin ecosystem, we <a href="https://github.com/BitcoinDesign/Meta/issues/516" target="_blank">found</a> that many wallets have very basic accessibility issues that prevent users with those needs from managing their bitcoin.</li>
+            <li><b>Accessibility:</b> How can we improve accessibility in bitcoin wallets? During our research on <a href="https://bitcoin.design/guide/designing-products/accessibility/" target="_blank">accessibility</a> in the bitcoin ecosystem, we <a href="https://github.com/BitcoinDesign/Meta/issues/516" target="_blank">found</a> that many wallets have very basic accessibility issues that prevent users with those needs from managing their bitcoin.</li>
           </ul>
         </Paragraph>
         <Paragraph>

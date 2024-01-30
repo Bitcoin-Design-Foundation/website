@@ -36,7 +36,7 @@
         </Paragraph>
         <Paragraph>
           <h2 class="-h3">Where will the foundation find people to give grants to?</h2>
-          <p>We will continuously promote that working on open-source bitcoin design is a viable opportunity, through grants from the foundation and other means. It’s always best when the marketing is just a natural byproduct of community and grant initiatives (and not just created for the sake of attention). Some of the places where the foundation and grant opportunities can be promoted include:</p>
+          <p>We will continuously promote that working on open-source bitcoin design is a viable opportunity, through grants from the foundation and other means. It’s always best when the marketing is just a natural byproduct of community and grant initiatives. Some of the places where the foundation and grant opportunities will be promoted include:</p>
 
           <ul>
             <li>The Bitcoin Design Community <a href="http://bitcoindesign.substack.com" target="_blank" rel="me">newsletter</a></li>
@@ -51,7 +51,7 @@
         </Paragraph>
         <Paragraph>
           <h2 class="-h3">What kind of grants will be available?</h2>
-          <p>The foundation will consider grants for full time and part time work for up to 12 months at a time. New grantees or community members can expect to start with a shorter duration grant. Full time grant amounts will be set at market competitive reference rates and prorated for shorter duration grants. Grants will be paid on a monthly basis.</p>
+          <p>The foundation will consider grants for full time and part time work for up to 12 months at a time. New grantees or community members can expect to start with a shorter duration grant. Full time grant amounts will be set at market competitive reference rates and prorated for shorter duration grants. Grants will be paid on a monthly basis for long-term grants and for shorter grants we will open a discussion with the grantee.</p>
         </Paragraph>
         <Paragraph>
           <h2 class="-h3">How will grants be reviewed and decided?</h2>

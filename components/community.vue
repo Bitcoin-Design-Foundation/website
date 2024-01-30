@@ -6,7 +6,7 @@
   <div class="community">
     <div class="copy">
       <h2>The Bitcoin Design Community</h2>
-      <p>Bitcoin is at its heart a global technology that is open to all. This potential can only be achieved if we can make bitcoin accessible and usable by as many people as possible. Technological innovation and good design go hand-in-hand in this, and our goal is to accelerate progress.</p>
+      <p><i>“Design bitcoin for everyone”</i> is the motto of the <a href="http://bitcoin.design" target="_blank">Bitcoin Design Community</a>. Established as an online community in 2020, it has produced the <a href="http://bitcoin.design/guide/" target="_blank">Bitcoin Design Guide</a>, the <a href="http://bitcoinuikit.com" target="_blank">Bitcoin UI Kit</a>, reference designs and adoption-pushing efforts like the <a href="http://bitcoinqr.dev" target="_blank">unified QR code</a> and <a href="https://whentaproot.org" target="_blank">taproot</a> campaigns. The large community has held <a href="http://youtube.com/c/BitcoinDesign" target="_blank">hundreds of calls</a>, organized <a href="https://event.bitcoin.design" target="_blank">Designathons</a> and worked directly with many open source projects to improve their design. A small number of grants initiated this huge body of collective work, positively impacting the whole bitcoin ecosystem. The Bitcoin Design Foundation supports the sustainability of these efforts and expands the impact of good design on bitcoin.</p>
       <Button
         url="https://bitcoin.design"
         rel="me"
@@ -35,6 +35,17 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
+
+    p {
+      a {
+        color: var(--primary-stronger);
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
   }
 
   img {
