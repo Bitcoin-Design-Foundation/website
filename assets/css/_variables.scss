@@ -4,3 +4,17 @@ $small-width: 640px;
 $large-width: 1024px;
 $huge-width: 1281px;
 $mega-width: 1601px;
+
+:root {
+	--background: #FFFFFF;
+	--primary: #F5CD96;
+	--primary-stronger: #EEAB4E;
+	--primary-strongest: #2F1D04;
+
+	--text-dark: #000000;
+	--text-light: #606060;
+}
+
+.--theme-dark {
+	--background: #180F02;
+}

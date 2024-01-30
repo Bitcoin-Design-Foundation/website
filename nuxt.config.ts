@@ -6,7 +6,7 @@ export default defineNuxtConfig({
         { name: 'description', content: 'We support designers who improve the bitcoin user experience.' },
         { name: 'msapplication-TileColor', content: '#000000' },
         { name: 'msapplication-TileImage', content: '/images/mstile-150x150.png' },
-        { name: 'theme-color', content: '#000000' },
+        { name: 'theme-color', content: '#000000', id: 'themeColorMeta' },
         { name: 'og:image', content: '/assets/images/preview.jpg' },
         { name: 'twitter:image', content: '/assets/images/preview.jpg' }
       ],
