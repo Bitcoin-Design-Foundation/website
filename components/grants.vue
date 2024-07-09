@@ -24,7 +24,7 @@ const people = [
   },
   {
     name: 'Chris',
-    description: 'Maintaining the <a href="https://bitcoincore.app/" target="_blank">Bitcoin UI Kit</a>.',
+    description: 'Maintaining the <a href="https://www.bitcoinuikit.com/" target="_blank">Bitcoin UI Kit</a>.',
     link: 'https://opencollective.com/bitcoin-design-foundation/updates/second-grant-announcement-chris-and-bitcoin-ui-kit',
     src: '/assets/images/chris.jpg',
     srcset: '/assets/images/chris.jpg 1x, /assets/images/chris@2x.jpg 2x'
