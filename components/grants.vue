@@ -10,7 +10,7 @@ const people = [
   },
   {
     name: 'Yashraj',
-    description: 'Documenting best practices for silent payments UX.',
+    description: 'Best practices for silent payments UX.',
     link: 'https://opencollective.com/bitcoin-design-foundation/updates/grant-4-yashraj-and-silent-payments',
     src: '/assets/images/yashraj.jpg',
     srcset: '/assets/images/yashraj.jpg 1x, /assets/images/yashraj@2x.jpg 2x'
@@ -31,7 +31,7 @@ const people = [
   },
   {
     name: 'Erik',
-    description: 'Documenting best practices for Ecash UX.',
+    description: 'Best practices for Ecash UX.',
     link: 'https://opencollective.com/bitcoin-design-foundation/updates/announcing-our-first-grant-for-erik-and-his-work-on-ecash',
     src: '/assets/images/erik.jpg',
     srcset: '/assets/images/erik.jpg 1x, /assets/images/erik@2x.jpg 2x'
