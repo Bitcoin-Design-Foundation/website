@@ -10,11 +10,18 @@
         <PageHeader>
           <h1>Donor information</h1>
           <p>The Bitcoin Design Foundation is a nonprofit that supports individuals and projects that work on improving the bitcoin user experience. It is being set up by core contributors from the <a href="http://bitcoin.design" target="_blank">Bitcoin Design Community</a>, and will work to sustain and expand the impact of this community.</p>
-          <Button 
-            url="https://opencollective.com/bitcoin-design-foundation"
-            size="big"
-            rel="me"
-          >Donate</Button>
+          <div class="options">
+            <Button 
+              url="https://opencollective.com/bitcoin-design-foundation"
+              size="big"
+              rel="me"
+            >Donate</Button>
+            <Button
+              url="https://www.every.org/oceurope/f/support-designers-in"
+              size="big"
+              rel="me"
+            >Donate bitcoin</Button>
+          </div>
         </PageHeader>
         <Paragraph>
           <h2 class="-h3">Why does it exist?</h2>
@@ -63,9 +70,7 @@
         </Paragraph>
         <Paragraph>
           <h2 class="-h3">How can you donate?</h2>
-          <p>Donations are handled through the Open Collective platform. Find all the information <a href="https://opencollective.com/bitcoin-design-foundation" target="_blank">here</a>.</p>
-
-          <p>We currently do not support bitcoin donations. This is something we are eager to change and in discussion with Open Collective on.</p>
+          <p>Donations are handled through the Open Collective platform. Find all the donation information <a href="https://opencollective.com/bitcoin-design-foundation" target="_blank">here</a>. If you'd like to donate bitcoin, we have a <a href="https://www.every.org/oceurope/f/support-designers-in" target="_blank">dedicated fundraiser page</a> for that.</p>
 
           <p>For direct questions, email us at <a href="mailto:donate@bitcoindesignfoundation.org">donate@bitcoindesignfoundation.org</a>.</p>
         </Paragraph>

@@ -10,6 +10,7 @@
         <Intro />
         <Community />
         <Team />
+        <Grants />
       </div>
     </div>
   </div>

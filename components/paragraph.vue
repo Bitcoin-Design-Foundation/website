@@ -20,6 +20,10 @@
     
   }
 
+  ::v-deep(p) {
+    text-wrap: balance;
+  }
+
   ::v-deep(p),
   ::v-deep(ul li),
   ::v-deep(ol li) {
