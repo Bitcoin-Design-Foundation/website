@@ -28,6 +28,11 @@
       }
     }
   }
+
+  ::v-deep(.options) {
+    display: flex;
+    gap: 20px;
+  }
 }
 
 </style>

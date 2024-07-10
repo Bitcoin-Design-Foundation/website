@@ -10,6 +10,9 @@
       <Button
         url="mailto:hi@bitcoindesignfoundation.org"
       >Email us</Button>
+      <Button
+        url="https://opencollective.com/bitcoin-design-foundation/updates"
+      >News</Button>
     </div>
   </div>
 </template>
@@ -30,6 +33,11 @@
       font-weight: 600;
       color: var(--text-dark);
     }
+  }
+
+  ::v-deep(.options) {
+    display: flex;
+    gap: 20px;
   }
 }
 
