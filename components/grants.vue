@@ -35,6 +35,13 @@ const people = [
     link: 'https://opencollective.com/bitcoin-design-foundation/updates/announcing-our-first-grant-for-erik-and-his-work-on-ecash',
     src: '/assets/images/erik.jpg',
     srcset: '/assets/images/erik.jpg 1x, /assets/images/erik@2x.jpg 2x'
+  },
+  {
+    name: 'Bitshala',
+    description: 'A 6-month design fellowship.',
+    link: 'https://opencollective.com/bitcoin-design-foundation/updates/grant-8-bitshala-design-fellowship1',
+    src: '/assets/images/bitshala.jpg',
+    srcset: '/assets/images/bitshala.jpg 1x, /assets/images/bitshala@2x.jpg 2x'
   }
 ]
 
