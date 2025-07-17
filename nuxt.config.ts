@@ -24,6 +24,9 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/images/favicon-32x32.png' },
         { rel: 'icon', type: 'image/png', sizes: '96x96', href: '/images/favicon-96x96.png' },
         { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/images/favicon-16x16.png' }
+      ],
+      script: [
+        { defer: true, src:"https://info.bitcoin.design/script.js", "data-website-id": "f37bc8fb-a307-4867-9ea1-1d83285e6ee0" }
       ]
     }
   },
