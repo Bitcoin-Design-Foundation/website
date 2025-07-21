@@ -51,7 +51,7 @@
           <p>If you’re fairly new to grant-based work and/or open-source bitcoin, it might be a good idea to start slowly. Working independently and navigating the ecosystem can be a learning curve that a starter grant can help you feel out, while making your first contributions. If you are more experienced, it can allow you to deliver a well-scoped task. These grants are often part-time for 3-6 months.</p>
           
           <h3 class="-h4">2. Contributor</h3>
-          <p>This grant type is for designers who regularly contribute to one or more projects in the ecosystem, and actively contribute to the respective communities. These are often often part-time for 6 months.</p>
+          <p>This grant type is for designers who regularly contribute to one or more projects in the ecosystem, and actively contribute to the respective communities. These are often part-time for 6 months.</p>
           
           <h3 class="-h4">3. Champion</h3>
           <p>The most dedicated contributors often lead and shape larger projects and initiatives that make a dent in the ecosystem. These grants can be part-time or full-time for 6-12 months.</p>
