@@ -29,6 +29,36 @@
           <p>It means having a hyperfocus in one specific area and improving that area in the bitcoin ecosystem. Grantees are given a huge amount of trust and freedom. We trust that you will produce and work on the tasks that you have set out for yourself. With trust comes the responsibility to produce incredible work that you are proud of, and that contributes to the broader ecosystem. While this sounds like a bunch of fun (and it is), discipline and planning and grit are some of the core characteristics you’ll be tapping into.</p>
         </Paragraph>
         <Paragraph>
+          <h2 class="-h3">Grant types</h2>
+          <p>Grants are usually uniquely tailored to each grantee and the work they will be doing. However, we have seen some patterns emerge and want to provide a simple framework on how to think about the shapes a grant can take.</p>
+
+          <picture>
+            <source
+              media="(max-width: 639px)"
+              srcset="/assets/images/grant-types-mobile.jpg 1x, /assets/images/grant-types-mobile@2x.jpg 2x"
+            >
+            <img
+              src="/assets/images/grant-types.jpg"
+              srcset="/assets/images/grant-types.jpg 1x, /assets/images/grant-types@2x.jpg 2x"
+              width="900"
+              height="180"
+              loading="lazy"
+              alt=""
+            >
+          </picture>
+          
+          <h3 class="-h4">1. Starter</h3>
+          <p>If you’re fairly new to grant-based work and/or open-source bitcoin, it might be a good idea to start slowly. Working independently and navigating the ecosystem can be a learning curve that a starter grant can help you feel out, while making your first contributions. If you are more experienced, it can allow you to deliver a well-scoped task. These grants are often part-time for 3-6 months.</p>
+          
+          <h3 class="-h4">2. Contributor</h3>
+          <p>This grant type is for designers who regularly contribute to one or more projects in the ecosystem, and actively contribute to the respective communities. These are often often part-time for 6 months.</p>
+          
+          <h3 class="-h4">3. Champion</h3>
+          <p>The most dedicated contributors often lead and shape larger projects and initiatives that make a dent in the ecosystem. These grants can be part-time or full-time for 6-12 months.</p>
+
+          <p>As mentioned above, these are not fixed categories, but meant to give you a starting framework for how to think about your grant.</p>
+        </Paragraph>
+        <Paragraph>
           <h2 class="-h3">Areas the foundation is looking to support</h2>
           <p>These are some of the areas where we observed a need and desire for more design contributions. You are more than welcome to share other ideas.</p>
 
@@ -71,6 +101,13 @@
         <Paragraph>
           <h2 class="-h3">Your proposal</h2>
           <p>A good proposal provides a full picture of the task or problem you want to address, why it is worthwhile, how you want to go about it, and why you are in a good position to tackle this task. It can be a 1-2 page text document and include visuals and videos and any other material you think helps communicate best. Proposals are often iterated on. Feel free to send us drafts for feedback.</p>
+
+          <p>We’ve created two documents to help you plan your proposal:</p>
+          <ul>
+            <li>The <b><a href="https://docs.google.com/document/d/1OTnnCbly_fxsb1HzTCQc-RnrKoUIajRjEPvUa7aLP8k/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Project Fit Assessment</a></b> helps you determine if your idea is generally a good fit.</li>
+            <li>The <b><a href="https://docs.google.com/document/d/1nCqn4C__oOg5Va2CvtOCuaLVmnvsg6McqHRRaRV7hsI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Proposal Worksheet</a></b> has lots of tips and questions to help you plan.</li>
+          </ul>
+
           <p>Once your application is submitted, we will review internally. We strive to keep this process simple and direct because we know your time is precious. We may come back with questions, or directly approve the proposal. In the latter case, we will reach out with the next steps for getting started and receiving the donation payouts.</p>
           <p>Should you have any questions before applying, feel free to jump into the <a href="http://bitcoin.design" target="_blank">Bitcoin Design Community</a> and ask in the <a href="https://discord.gg/V4xwxTBett" target="_blank">#foundation</a> channel.</p>
           <p>Grant applications: <a href="mailto:apply@bitcoindesignfoundation.org">apply@bitcoindesignfoundation.org</a></p>
