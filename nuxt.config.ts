@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
+  devServer: { port: 3456 },
   app: {
     head: {
       title: 'Bitcoin Design Foundation',
